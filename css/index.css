@@ -149,6 +149,9 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     text-align: center;
 } */
 
+
+
+
 header {
     background-color: #fff;
     padding: 0px;
@@ -319,7 +322,7 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     display: none;
   }
 .close{
-    background-color:#cf2952;
+    background-color:#dc4f72;
     color: white;
     border-radius: 1px;
     padding-right: 10px;
@@ -327,14 +330,25 @@ nav ul li a, nav ul li a:after, nav ul li a:before {
     padding-top: 2px;
     padding-bottom: 2px;
     border-radius: 4px;
+    opacity: unset;
 }
 
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    position: absolute;
+    text-align: center;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    left: 50%;
+    transform: translate(-50%,0);
+}
 
-  /* @media screen and (max-width: 375px) {
+/* @media screen and (max-width: 991px) {
     .navbar-expand-lg .navbar-nav .dropdown-menu {
-        left: 37% !important;
+        transform: translate(122%);
     }
-  } */
+} */
+ 
+ 
 /* banner */
 .w3l-index1 {
     margin-top: 90px;
